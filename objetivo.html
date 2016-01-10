@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
         <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css" />
         <title>Object-Orientation Study Group - SP</title>
@@ -11,9 +12,14 @@
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
                     <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                        
+                        </button>
                         <a class="navbar-brand" href="index.html">OOSG-SP</a>
                     </div>
-                    <div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav">
                             <li><a href="quem-somos.html">Quem Somos</a></li>
                             <li><a href="objetivo.html">Objetivo</a></li>
@@ -28,17 +34,15 @@
             </nav>
         </header>
         <section>
-            <div class="row">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-8">
-                    <h3>Objetivo</h3>
-                    <p>
+            <div class="col-sx-8" style="padding-left: 10px;">
+                <h3>Objetivo</h3>
+                <p>
                     Queremos aprofundar cada vez mais nossos conhecimentos e nos tornarmos profissionais melhores a cada encontro.
-                    </p>
-                </div>
-                <div class="col-sm-2"></div>
+                </p>
+            </div>
             </div>
         </section>
+        <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
         <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>
